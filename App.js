@@ -29,7 +29,7 @@ export default function App() {
         <ScrollView>
          <View style={someStyles.container}> 
             <ImageBackground style={someStyles.image}
-              source = {require("../abstract.jpeg")}>
+              source = {require("../green.jpeg")}>
 
                 <Text style={someStyles.text}> Donnolis</Text>
                 <View style={{flex:1, alignItems:'center', marginTop:10}}> 
