@@ -5,7 +5,7 @@ const someStyles = StyleSheet.create({
     container: {
       flex: 1,
       //padding: 24,
-      //backgroundColor: 'grey',
+      backgroundColor: 'black',
     },
 
     image: {
@@ -44,11 +44,11 @@ const someStyles = StyleSheet.create({
 
       viewImage: {
 
-        width: 350,
-        height: 350,
-        borderRadius:60,
+        width: 550,
+        height: 650,
+        borderRadius:20,
         borderWidth:3,
-        borderColor:'black',
+        //borderColor:'yellow',
       },
 
       carouselImage: {

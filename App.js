@@ -13,6 +13,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Slider from 'react-touch-drag-slider';
 //import images from './assets'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { color } from "framer-motion";
 
 //import WalkthroughAppConfig from "./src/WalkthroughAppConfig";
 
@@ -28,26 +29,31 @@ export default function App() {
 
         <ScrollView>
          <View style={someStyles.container}> 
-            <ImageBackground style={someStyles.image}
-              source = {require("../ab.jpeg")}>
+            {/* <ImageBackground style={someStyles.image}
+              source = {require("../mount.jpeg")}> */}
 
                 <Text style={someStyles.text}> Donnolis</Text>
-                <View style={{flex:1, alignItems:'center', marginTop:10}}> 
+                
+                <View style={{flex:1, alignItems:'left', marginTop:10, flexDirection:'row'}}> 
+
                   <img style= {someStyles.viewImage}
-                      src={require("../avatar.jpeg")} 
+                      src={require("../nasaImage.jpeg")} 
                       >
                     </img>
 
-                    <div className='text-container'>
-                      <p style={{fontSize:20,marginTop:40,
-          
-                        borderRadius:20,
-                        backgroundColor:'grey',
-                        marginLeft:10,flexDirection:'row',
-            
-                        borderColor:'black',
-          opacity:0.9}}>   Hello there! I am Daniel Alfaro!"A Brooklyn-based ambitiously aspiring Software Developer and Computer Science extraordinaire!" </p>
-                    </div>
+                    <View style={{marginTop:100}}
+                    >
+                      {/* <Text style={{color:'white', fontFamily:"Times New Roman", fontSize:24 }}>Hello</Text>
+                     */}
+                     <h1 style={{marginLeft:100,color:'white', fontFamily:'Times New Roman'}}>HELLO</h1>
+                     <Text style={{fontSize:20,marginTop:40, backgroundColor:'white',borderRadius:10, marginLeft:10,flexDirection:'row',
+                     borderColor:'black', opacity:0.9, width:500}}> "A Brooklyn-based ambitiously aspiring Software Developer and Computer Science extraordinaire!" </Text>
+                      
+                    </View>
+
+                  
+
+                    
 
                 </View>
                 
@@ -92,13 +98,13 @@ export default function App() {
 
                 </Carousel>
             
-            </ImageBackground>        
+            {/* </ImageBackground>        
 
 
             <ImageBackground style ={someStyles.image}
             source={require('../green.jpeg')}>
               
-              </ImageBackground>     
+              </ImageBackground>      */}
           </View>
 
             </ScrollView>
