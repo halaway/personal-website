@@ -5,4 +5,12 @@ are used for instantiating, fitting, and plotting the model along with their per
 metrics. 
 
 # General Use
+The main file contains a few lines of code that create an ML Class depending on 
+the model type: LinearSVC or RandomForest.
+
+A class is created like: 
+  - 
+  
+
+
 
