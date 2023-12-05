@@ -14,7 +14,7 @@ A class is created like:
   - ...
 ### Note
 Dealing with Support Vector Machines doesn't usually allow for plotting ROC curves 
-since they don't often predict probabilities.(I think )
+since they don't often predict probabilities(I think )
 
   
 
