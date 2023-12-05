@@ -1,12 +1,5 @@
-# Simple Website in React Native
-Creating a static site for hosting and redirecting some of my personal projects.
-
-
-## Features
-- Highly customizable source code
-- Unlimited number of steps
-- Optimized for Web search
-
-
-
-
+# Machine Learning Models Integrating Spark With LinearSVC and RandomForest
+This project is essentially contained within the ML Class, where different methods
+are used for instantiating, fitting, and plotting the model along with their performance
+metrics. 
+# General Use
